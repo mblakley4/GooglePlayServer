@@ -4,7 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app"
+    "test": "mocha",
+    "start": "node server",
+    "dev": " nodemon server",
+    "debug": "nbd node server"
   },
   "keywords": [],
   "author": "",
